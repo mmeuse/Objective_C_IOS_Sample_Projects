@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE800D9015379D3B00DE8176 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE800D8F15379D3B00DE8176 /* UIKit.framework */; };
+		BE800D9215379D3B00DE8176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE800D9115379D3B00DE8176 /* Foundation.framework */; };
+		BE800D9415379D3B00DE8176 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE800D9315379D3B00DE8176 /* CoreGraphics.framework */; };
+		BE800D9A15379D3B00DE8176 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE800D9815379D3B00DE8176 /* InfoPlist.strings */; };
+		BE800D9C15379D3B00DE8176 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE800D9B15379D3B00DE8176 /* main.m */; };
+		BE800DA015379D3B00DE8176 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE800D9F15379D3B00DE8176 /* AppDelegate.m */; };
+		BE800DA315379D3B00DE8176 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE800DA215379D3B00DE8176 /* MainViewController.m */; };
+		BE800DA615379D3B00DE8176 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE800DA515379D3B00DE8176 /* FlipsideViewController.m */; };
+		BE800DA915379D3B00DE8176 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE800DA715379D3B00DE8176 /* MainViewController.xib */; };
+		BE800DAC15379D3B00DE8176 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE800DAA15379D3B00DE8176 /* FlipsideViewController.xib */; };
+		BE800DB415379D3B00DE8176 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE800DB315379D3B00DE8176 /* SenTestingKit.framework */; };
+		BE800DB515379D3B00DE8176 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE800D8F15379D3B00DE8176 /* UIKit.framework */; };
+		BE800DB615379D3B00DE8176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE800D9115379D3B00DE8176 /* Foundation.framework */; };
+		BE800DCB1537BA6600DE8176 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE800DCA1537BA6600DE8176 /* words.plist */; };
+		BE800DCD1537C7C100DE8176 /* small.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE800DCC1537C7C100DE8176 /* small.plist */; };
+		BED44E97153B8A9400A1F12C /* HangmanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BED44E96153B8A9400A1F12C /* HangmanModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE800DB715379D3B00DE8176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE800D8215379D3B00DE8176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE800D8A15379D3B00DE8176;
+			remoteInfo = Hangman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE800D8B15379D3B00DE8176 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE800D8F15379D3B00DE8176 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE800D9115379D3B00DE8176 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE800D9315379D3B00DE8176 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE800D9715379D3B00DE8176 /* Hangman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hangman-Info.plist"; sourceTree = "<group>"; };
+		BE800D9915379D3B00DE8176 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE800D9B15379D3B00DE8176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE800D9D15379D3B00DE8176 /* Hangman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hangman-Prefix.pch"; sourceTree = "<group>"; };
+		BE800D9E15379D3B00DE8176 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE800D9F15379D3B00DE8176 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE800DA115379D3B00DE8176 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BE800DA215379D3B00DE8176 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BE800DA415379D3B00DE8176 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		BE800DA515379D3B00DE8176 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		BE800DA815379D3B00DE8176 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		BE800DAB15379D3B00DE8176 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		BE800DB215379D3B00DE8176 /* HangmanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE800DB315379D3B00DE8176 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE800DCA1537BA6600DE8176 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		BE800DCC1537C7C100DE8176 /* small.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = small.plist; sourceTree = "<group>"; };
+		BED44E95153B8A9400A1F12C /* HangmanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanModel.h; sourceTree = "<group>"; };
+		BED44E96153B8A9400A1F12C /* HangmanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE800D8815379D3B00DE8176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE800D9015379D3B00DE8176 /* UIKit.framework in Frameworks */,
+				BE800D9215379D3B00DE8176 /* Foundation.framework in Frameworks */,
+				BE800D9415379D3B00DE8176 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE800DAE15379D3B00DE8176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE800DB415379D3B00DE8176 /* SenTestingKit.framework in Frameworks */,
+				BE800DB515379D3B00DE8176 /* UIKit.framework in Frameworks */,
+				BE800DB615379D3B00DE8176 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0C9E331613AF74000992B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BED44E95153B8A9400A1F12C /* HangmanModel.h */,
+				BED44E96153B8A9400A1F12C /* HangmanModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BE0C9E341613AF7C000992B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE800DA715379D3B00DE8176 /* MainViewController.xib */,
+				BE800DAA15379D3B00DE8176 /* FlipsideViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BE0C9E351613AF83000992B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE800DA115379D3B00DE8176 /* MainViewController.h */,
+				BE800DA215379D3B00DE8176 /* MainViewController.m */,
+				BE800DA415379D3B00DE8176 /* FlipsideViewController.h */,
+				BE800DA515379D3B00DE8176 /* FlipsideViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BE800D8015379D3B00DE8176 = {
+			isa = PBXGroup;
+			children = (
+				BE800D9515379D3B00DE8176 /* Hangman */,
+				BE800D8E15379D3B00DE8176 /* Frameworks */,
+				BE800D8C15379D3B00DE8176 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE800D8C15379D3B00DE8176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE800D8B15379D3B00DE8176 /* Hangman.app */,
+				BE800DB215379D3B00DE8176 /* HangmanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE800D8E15379D3B00DE8176 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE800D8F15379D3B00DE8176 /* UIKit.framework */,
+				BE800D9115379D3B00DE8176 /* Foundation.framework */,
+				BE800D9315379D3B00DE8176 /* CoreGraphics.framework */,
+				BE800DB315379D3B00DE8176 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE800D9515379D3B00DE8176 /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				BE800D9E15379D3B00DE8176 /* AppDelegate.h */,
+				BE800D9F15379D3B00DE8176 /* AppDelegate.m */,
+				BE800D9B15379D3B00DE8176 /* main.m */,
+				BE0C9E351613AF83000992B9 /* Controller */,
+				BE0C9E341613AF7C000992B9 /* View */,
+				BE0C9E331613AF74000992B9 /* Model */,
+				BE800D9615379D3B00DE8176 /* Supporting Files */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		BE800D9615379D3B00DE8176 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE800DCA1537BA6600DE8176 /* words.plist */,
+				BE800D9715379D3B00DE8176 /* Hangman-Info.plist */,
+				BE800D9815379D3B00DE8176 /* InfoPlist.strings */,
+				BE800DCC1537C7C100DE8176 /* small.plist */,
+				BE800D9D15379D3B00DE8176 /* Hangman-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE800D8A15379D3B00DE8176 /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE800DC415379D3B00DE8176 /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				BE800D8715379D3B00DE8176 /* Sources */,
+				BE800D8815379D3B00DE8176 /* Frameworks */,
+				BE800D8915379D3B00DE8176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = BE800D8B15379D3B00DE8176 /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE800DB115379D3B00DE8176 /* HangmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE800DC715379D3B00DE8176 /* Build configuration list for PBXNativeTarget "HangmanTests" */;
+			buildPhases = (
+				BE800DAD15379D3B00DE8176 /* Sources */,
+				BE800DAE15379D3B00DE8176 /* Frameworks */,
+				BE800DAF15379D3B00DE8176 /* Resources */,
+				BE800DB015379D3B00DE8176 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE800DB815379D3B00DE8176 /* PBXTargetDependency */,
+			);
+			name = HangmanTests;
+			productName = HangmanTests;
+			productReference = BE800DB215379D3B00DE8176 /* HangmanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE800D8215379D3B00DE8176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE800D8515379D3B00DE8176 /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE800D8015379D3B00DE8176;
+			productRefGroup = BE800D8C15379D3B00DE8176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE800D8A15379D3B00DE8176 /* Hangman */,
+				BE800DB115379D3B00DE8176 /* HangmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE800D8915379D3B00DE8176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE800D9A15379D3B00DE8176 /* InfoPlist.strings in Resources */,
+				BE800DA915379D3B00DE8176 /* MainViewController.xib in Resources */,
+				BE800DAC15379D3B00DE8176 /* FlipsideViewController.xib in Resources */,
+				BE800DCB1537BA6600DE8176 /* words.plist in Resources */,
+				BE800DCD1537C7C100DE8176 /* small.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE800DAF15379D3B00DE8176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE800DB015379D3B00DE8176 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE800D8715379D3B00DE8176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE800D9C15379D3B00DE8176 /* main.m in Sources */,
+				BE800DA015379D3B00DE8176 /* AppDelegate.m in Sources */,
+				BE800DA315379D3B00DE8176 /* MainViewController.m in Sources */,
+				BE800DA615379D3B00DE8176 /* FlipsideViewController.m in Sources */,
+				BED44E97153B8A9400A1F12C /* HangmanModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE800DAD15379D3B00DE8176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE800DB815379D3B00DE8176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE800D8A15379D3B00DE8176 /* Hangman */;
+			targetProxy = BE800DB715379D3B00DE8176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE800D9815379D3B00DE8176 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE800D9915379D3B00DE8176 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE800DA715379D3B00DE8176 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE800DA815379D3B00DE8176 /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		BE800DAA15379D3B00DE8176 /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE800DAB15379D3B00DE8176 /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE800DC215379D3B00DE8176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE800DC315379D3B00DE8176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE800DC515379D3B00DE8176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE800DC615379D3B00DE8176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE800DC815379D3B00DE8176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE800DC915379D3B00DE8176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE800D8515379D3B00DE8176 /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE800DC215379D3B00DE8176 /* Debug */,
+				BE800DC315379D3B00DE8176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE800DC415379D3B00DE8176 /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE800DC515379D3B00DE8176 /* Debug */,
+				BE800DC615379D3B00DE8176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE800DC715379D3B00DE8176 /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE800DC815379D3B00DE8176 /* Debug */,
+				BE800DC915379D3B00DE8176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE800D8215379D3B00DE8176 /* Project object */;
+}
